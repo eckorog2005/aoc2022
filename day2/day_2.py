@@ -1,5 +1,6 @@
-# file = open(".\day2\sample.txt")
-file = open(".\day2\input.txt")
+import os
+# file = open(os.path.join(".","day1","sample.txt"))
+file = open(os.path.join(".","day2","input.txt"))
 
 # A for Rock, B for Paper, and C for Scissors
 # X for Rock, Y for Paper, and Z for Scissors

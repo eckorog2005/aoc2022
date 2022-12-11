@@ -1,5 +1,6 @@
-# file = open(".\day1\sample.txt")
-file = open(".\day1\input.txt")
+import os
+# file = open(os.path.join(".","day1","sample.txt"))
+file = open(os.path.join(".","day1","input.txt"))
 
 most_food = 0
 counter = 0

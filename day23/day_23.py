@@ -1,2 +1,3 @@
-# file = open(".\day23\sample.txt")
-file = open(".\day23\input.txt")
+import os
+# file = open(os.path.join(".","day1","sample.txt"))
+file = open(os.path.join(".","day23","input.txt"))

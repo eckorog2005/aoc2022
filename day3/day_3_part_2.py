@@ -1,5 +1,6 @@
-# file = open("./day3/sample.txt")
-file = open("./day3/input.txt")
+import os
+# file = open(os.path.join(".","day1","sample.txt"))
+file = open(os.path.join(".","day3","input.txt"))
 
 total = 0 
 lines = []

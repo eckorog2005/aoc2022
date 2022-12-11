@@ -1,5 +1,6 @@
-# file = open(".\day4\sample.txt")
-file = open(".\day4\input.txt")
+import os
+# file = open(os.path.join(".","day1","sample.txt"))
+file = open(os.path.join(".","day4","input.txt"))
 
 counter_sub = 0
 
